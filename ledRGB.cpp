@@ -8,15 +8,13 @@
 
 int ledArray[3], mainArray[3] = {0, 0, 0};
 
-//        0      1    2      3     4       5
-//enum {BLACK, WHITE, RED, GREEN, BLUE, YELLOW};
 // Color arrays      R    G    B
 int black[3]    = {   0,   0,   0 };
 int white[3]    = { 100, 100, 100 };
 int red[3]      = { 100,   0,   0 };
 int green[3]    = {   0, 100,   0 };
 int blue[3]     = {   0,   0, 100 };
-int yellow[3]   = {  40,  95,   0 };
+int yellow[3]   = {  95,  40,   0 };
 int dimWhite[3] = {  30,  30,  30 };
 
 

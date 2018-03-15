@@ -1,20 +1,14 @@
 /*
 Project: ledRGB
 File: ledRGB.cpp
-Version: 0.1
+Version: 0.2
 Create by: Rom1 <rom1@canel.ch>
 		   CANEL - https://www.canel.ch
-Date: 24/02/18
+Date: 15/03/18
 License: GNU GENERAL PUBLIC LICENSE v3
-Language: Python
+Language: Arduino (C/C++)
 Description: Bibliotèque Arduino pour contrôler une LED RGB en digital
 */
-#if defined(ARDUINO) && ARDUINO >= 100
-  #include <Arduino.h>
-#else
-  #include <WProgram.h>
-#endif
-
 #include "ledRGB.h"
 
 int ledArray[3], mainArray[3] = {0, 0, 0};

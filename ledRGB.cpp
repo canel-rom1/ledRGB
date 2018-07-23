@@ -9,6 +9,7 @@ License: GNU GENERAL PUBLIC LICENSE v3
 Language: Arduino (C/C++)
 Description: Bibliotèque Arduino pour contrôler une LED RGB en digital
 */
+#include <Arduino.h>
 #include "ledRGB.h"
 
 int ledArray[3], mainArray[3] = {0, 0, 0};
